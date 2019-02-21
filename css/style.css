@@ -1,0 +1,49 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { padding: 0; margin: 0; box-sizing: border-box;}
+
+/* ------------------------------------------------------------ *\
+    Wrapper
+\* ------------------------------------------------------------ */
+
+.wrapper { margin-top: 50px; }
+
+/* ------------------------------------------------------------ *\
+    Common Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; max-width: 780px; }
+
+/*Float Cleaner*/
+.shell:after { content: ''; display: block; clear: left; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { }
+
+/*Logo*/
+.logo { float: left; width: 99px; height: 114px; background-image: url("../images/logo.jpg"); }
+
+/*Navigation*/
+.navigation { float: right; }
+
+/*Float Cleaner*/
+.navigation:after { content: ''; display: block; clear: left; }
+
+/*Selectors*/
+.navigation li { list-style: none; }
+
+/*Buttons*/
+.button { float: left; padding: 10px; font-size: 20px; }
+
+/*Button Hover*/
+.button:hover { border: 2px solid black;}
+
+/*Selectors*/
+.button a { display: inline-block; position: relative; z-index: 1; padding: 2em;
+            margin: -2em; text-decoration: none; color: black; }
+.button + .button { margin-left: 15px; }
